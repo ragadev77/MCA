@@ -1,0 +1,47 @@
+-- [POST] Rule Maker --
+{
+  "rul_id": 0,
+  "rul_name": "rule-99",
+  "rul_desc": "ruledesc-99",
+  "rul_condition": "99--99",
+  "rul_output": "cabang99",
+  "rul_type": 1,
+  "rul_created_by" : "crm_admin",
+  "rul_category": "cate99",
+  "rul_applied": "apply99"
+}
+
+-- [POST] Rule Checker --
+role : checker
+value : approved
+{
+  "rul_id": 55
+}
+
+-- [POST] Rule Approval > approved --
+role : approval
+value : approved
+rul_id : 
+sync_date (UTC ISO 8601) : 	2022-06-24T02:31:56.000Z
+isSynced : false
+
+-- [POST] Rule Approval > approved --
+role : approval
+value : approved
+rul_id : 
+isSynced : true
+
+
+-- [POST] Rule Maker > update --
+rul_id : 7
+
+{
+  "rul_name": "rule-555",
+  "rul_desc": "xxruledesc-555",
+  "rul_condition": "d555===555",
+  "rul_output": "cabang555",
+  "rul_type": 4,
+  "rul_created_by" : "crm_admin",
+  "rul_category": "question555",
+  "rul_applied": "apply555"
+}

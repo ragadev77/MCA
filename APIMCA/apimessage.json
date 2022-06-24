@@ -1,0 +1,17 @@
+{
+  "api_output_ok": "Success",
+  "api_output_not_ok": "Error/Failed",
+  "data_found": "Data Found",
+  "data_not_found": "Data Not Found",
+  "process_success": "Processed",
+  "process_not_success": "Not Processed",
+  "save_success": "Saved",
+  "save_not_success": "Not Saved",
+  "delete_success": "Deleted",
+  "delete_not_success": "Not Deleted",
+  "update_success": "Updated",
+  "update_not_success": "Not Updated",
+  "output_field_exists": "Output Field Already Exists",
+  "output_field_not_exists": "Output Field Not Exists",
+  "workflow_reject":  "Rejected"
+}
