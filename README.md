@@ -13,6 +13,9 @@ ___Build and Run___
 1. Browse to folder APIMCA : cd APIMCA
 2. dotnet run --project APIMCA.csproj 
 
+___List API :___
+On Swagger Page
+
 ___Start Page (Swagger UI) :___
 https://localhost:5001/index.html
 
